@@ -15,13 +15,13 @@ function createcard() {
     let image = document.getElementById("bilde").value;
     console.log(image);
     if (image=="krans") {
-      document.getElementById("new-image").src = "Images/Krans.png";
+      document.getElementById("new-image").src = "images/Krans.png";
     }
     if (image=="snøman") {
-      document.getElementById("new-image").src = "Images/Snøman.jpg";
+      document.getElementById("new-image").src = "images/Snøman.jpg";
     }
     if (image=="Julenisse") {
-      document.getElementById("new-image").src = "Images/Julenisse.jpg";
+      document.getElementById("new-image").src = "images/Julenisse.jpg";
     }
 
 }
