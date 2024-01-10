@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jule kort</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+  <div id="createbox">
+    <div class="full">
+      <h1>Overskrift</h1>
+      <textarea id="header" rows="1" cols="30"></textarea>
+      <h1>Tekst</h1>
+      <textarea id="text" rows="15" cols="30"></textarea>
+      <h1>Frå</h1>
+      <textarea id="from" rows="1" cols="30"></textarea>
+      <label for="bilde">Velg et bilde:</label>
+      <select name="bilde" id="bilde">
+        <option value="krans">Krans</option>
+        <option value="snøman">Snøman</option>
+        <option value="julenisse">julenisse</option>
+      </select>
+      <h1>Farge</h1>
+      <p>skift farge</p>
+      <input id="color" value="#ff0000" name="color" type="color">
+      <p>bakbrunds farge</p>
+      <input id="bcolor" value="#ff0000" name="color" type="color">
+      <button onclick="createcard()">lag kort</button>
+    </div>
+  </div>
+
+  <button onclick="window.print()">Print</button>
+
+    <div class="h11">
+      <div class="christmascard" id="card">
+        <div id="new-card">
+          <h1 id="new-header"></h1>
+          <img id="new-image">
+          <p id="new-text"></p>
+          <h1 id="new-from"></h1>
+        </div>
+      </div>
+     
+    </div>
+
+  
+   <script src="main.js"></script>
+   
+</body>
+
+</html>

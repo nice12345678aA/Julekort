@@ -1,0 +1,29 @@
+.full {
+    padding: 15px;
+    color: crimson;   
+}
+
+.h11 {
+    padding: 50px;
+}
+
+#new-image {
+    width: 225px;
+    padding-left: 130px;
+    padding-top: 50px;
+}
+
+#new-text {
+    width: 150px;
+    padding-left: 180px;
+}
+
+#new-from {
+    width: 150px;
+    padding-left: 180px;
+}
+
+#new-header {
+    width: 150px;
+    padding-left: 180px;
+}
