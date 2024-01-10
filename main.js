@@ -20,8 +20,5 @@ function createcard() {
     if (image=="snøman") {
       document.getElementById("new-image").src = "images/Snøman.jpg";
     }
-    if (image=="Julenisse") {
-      document.getElementById("new-image").src = "images/Julenisse.jpg";
-    }
 
 }
